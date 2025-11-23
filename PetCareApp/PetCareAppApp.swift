@@ -7,11 +7,16 @@
 
 import SwiftUI
 
+import SwiftUI
+
 @main
-struct PetCareAppApp: App {
+struct PetCareApp: App {
+
+    @StateObject var themeManager = ThemeManager()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView().withAccessibility().environmentObject(themeManager)
         }
     }
 }

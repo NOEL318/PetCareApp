@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		59A370E92ED3B7BE0033FB31 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A370E82ED3B7BE0033FB31 /* WelcomeView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		59A370E82ED3B7BE0033FB31 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		59D8A8482ED3B03F00C210FB /* PetCareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetCareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -34,6 +39,7 @@
 			children = (
 				59D8A84A2ED3B03F00C210FB /* PetCareApp */,
 				59D8A8492ED3B03F00C210FB /* Products */,
+				59A370E82ED3B7BE0033FB31 /* WelcomeView.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A370E92ED3B7BE0033FB31 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
